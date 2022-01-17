@@ -1,0 +1,7 @@
+.nav {
+    background-color: rgb(235, 123, 123);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
