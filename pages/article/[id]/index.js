@@ -11,7 +11,7 @@ const Article = ({ article }) => {
             <h1>This is Article {article[0].id}</h1>
             <h3>{article[0].title}</h3>
             <p>{article[0].body}</p>
-            <Link href='/'><b className={styles.btn}>Go Back!</b></Link>
+            <Link href='/' passHref><b className={styles.btn}>Go Back!</b></Link>
         </>
     )
 }
